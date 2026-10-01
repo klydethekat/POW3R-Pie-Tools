@@ -1,7 +1,7 @@
 bl_info = {
     "name": "POW3R Pie Tools",
     "author": "Kenneth Cabacungan",
-    "version": (1, 0, 0),
+    "version": (1, 0, 1),
     "blender": (2, 80, 0),
     "location": "Pie Menu (Ctrl+W)",
     "description": "A collection of scene and object utilities in a pie menu.",
@@ -251,7 +251,7 @@ class ShapesparkValidateMaterials(bpy.types.Operator):
 
         # Print validation report to text file in Blender
         end_report = [
-            "For persistent validation report, see \"Shapespark Validator Report\" in the text editor.",
+            "For written validation report, see \"Shapespark Validator Report\" in the text editor.",
             "Finished scene validation. Click to view full details."
             ]
         for line in end_report:

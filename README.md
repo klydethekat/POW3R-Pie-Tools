@@ -1,4 +1,4 @@
-# POW3R Pie Tools
+# POW3R Pie Tools 1.0.1
 
 A Blender add-on that packages a set of useful object and scene utility tools into a single pie menu for quick access.
 
